@@ -4,34 +4,26 @@ A passionate devops engineer and cyber security enthusiast
 
 ## 🚀 Latest Projects
 
+<div align="center">
 
-### [retirement-planner](https://github.com/prahacker/retirement-planner)
-No description provided.
+[![retirement-planner](https://img.shields.io/badge/retirement-planner-black?style=for-the-badge&logo=github)](https://github.com/prahacker/retirement-planner) [![Stars](https://img.shields.io/github/stars/prahacker/retirement-planner?style=for-the-badge&logo=github&color=gold)](https://github.com/prahacker/retirement-planner/stargazers) [![Language](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/prahacker/retirement-planner)
 
-![Language](https://img.shields.io/badge/TypeScript-TypeScript-blue?style=flat-square)
-![Stars](https://img.shields.io/github/stars/prahacker/retirement-planner?style=flat-square)
+</div>
+<div align="center">
 
+[![tracker-v2](https://img.shields.io/badge/tracker-v2-black?style=for-the-badge&logo=github)](https://github.com/prahacker/tracker-v2) [![Stars](https://img.shields.io/github/stars/prahacker/tracker-v2?style=for-the-badge&logo=github&color=gold)](https://github.com/prahacker/tracker-v2/stargazers) [![Language](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/prahacker/tracker-v2)
 
-### [tracker-v2](https://github.com/prahacker/tracker-v2)
-No description provided.
+</div>
+<div align="center">
 
-![Language](https://img.shields.io/badge/TypeScript-TypeScript-blue?style=flat-square)
-![Stars](https://img.shields.io/github/stars/prahacker/tracker-v2?style=flat-square)
+[![my-portfolio](https://img.shields.io/badge/my-portfolio-black?style=for-the-badge&logo=github)](https://github.com/prahacker/my-portfolio) [![Stars](https://img.shields.io/github/stars/prahacker/my-portfolio?style=for-the-badge&logo=github&color=gold)](https://github.com/prahacker/my-portfolio/stargazers) [![Language](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/prahacker/my-portfolio)
 
+</div>
+<div align="center">
 
-### [my-portfolio](https://github.com/prahacker/my-portfolio)
-No description provided.
+[![prahacker](https://img.shields.io/badge/prahacker-black?style=for-the-badge&logo=github)](https://github.com/prahacker/prahacker) [![Stars](https://img.shields.io/github/stars/prahacker/prahacker?style=for-the-badge&logo=github&color=gold)](https://github.com/prahacker/prahacker/stargazers) [![Language](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/prahacker/prahacker)
 
-![Language](https://img.shields.io/badge/TypeScript-TypeScript-blue?style=flat-square)
-![Stars](https://img.shields.io/github/stars/prahacker/my-portfolio?style=flat-square)
-
-
-### [prahacker](https://github.com/prahacker/prahacker)
-No description provided.
-
-![Language](https://img.shields.io/badge/Python-Python-blue?style=flat-square)
-![Stars](https://img.shields.io/github/stars/prahacker/prahacker?style=flat-square)
-
+</div>
 
 📊 GitHub Stats
 
