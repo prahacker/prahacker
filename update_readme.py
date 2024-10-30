@@ -2,7 +2,7 @@ import os
 import requests
 
 def get_latest_repos(username, token, count=4):
-    url = f"https://api.github.com/users/{username}/repos"
+    url = f"https://api.github.com/users/prahacker/repos"
     headers = {"Authorization": f"token {token}"}
     response = requests.get(url, headers=headers)
     repos = response.json()
