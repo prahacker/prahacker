@@ -20,7 +20,7 @@ jobs:
         pip install requests
     - name: Update README
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
       run: python update_readme.py
     - name: Commit and push if changed
       run: |
