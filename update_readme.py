@@ -66,4 +66,4 @@ def update_readme(username: str, token: str):
 if __name__ == "__main__":
     token = os.environ['TOKEN']
     github_username = "prahacker"  # Your GitHub username
-    update_readme(github_username, github_token)
+    update_readme(github_username, token)
