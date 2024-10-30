@@ -33,6 +33,6 @@ def update_readme(username, token):
         file.write(updated_content)
 
 if __name__ == "__main__":
-    github_token = os.environ['GITHUB_TOKEN']
+    github_token = os.environ['TOKEN']
     github_username = "prahacker"  # Replace with your GitHub username
     update_readme(github_username, github_token)
