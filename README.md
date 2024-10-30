@@ -33,4 +33,4 @@ A passionate devops engineer and cyber security enthusiast
 
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/yourusername)
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/yourusername](https://www.linkedin.com/in/prakhar-tripathi-1ba3651a7/))
-[![Blog](https://img.shields.io/badge/Blog-%23FF4088.svg?style=for-the-badge&logo=hugo&logoColor=white)](https://prakhar.prahacker.xyz/)
+[![Website](https://img.shields.io/badge/Blog-%23FF4088.svg?style=for-the-badge&logo=hugo&logoColor=white)](https://prakhar.prahacker.xyz/)
