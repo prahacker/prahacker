@@ -11,7 +11,6 @@ def get_repo_languages(username: str, repo: str, token: str) -> Dict[str, int]:
 def calculate_primary_language(languages: Dict[str, int]) -> Optional[str]:
     if not languages:
         return None
-    # Get language with highest number of bytes
     return max(languages.items(), key=lambda x: x[1])[0]
 
 def get_latest_repos(username: str, token: str, count: int = 4) -> List[Dict]:
@@ -20,10 +19,8 @@ def get_latest_repos(username: str, token: str, count: int = 4) -> List[Dict]:
     response = requests.get(url, headers=headers)
     repos = response.json()
     
-    # Sort by created date and get the latest ones
     sorted_repos = sorted(repos, key=lambda r: r['created_at'], reverse=True)[:count]
     
-    # Enhance repo data with language information
     for repo in sorted_repos:
         languages = get_repo_languages(username, repo['name'], token)
         repo['primary_language'] = calculate_primary_language(languages)
@@ -31,14 +28,13 @@ def get_latest_repos(username: str, token: str, count: int = 4) -> List[Dict]:
     return sorted_repos
 
 def generate_project_card(repo: Dict) -> str:
-    return f"""    <div className="bg-gray-700 rounded-lg p-4">
-      <h3 className="text-xl font-semibold mb-2">{repo['name']}</h3>
-      <p className="text-sm mb-2">{repo['description'] or 'No description'}</p>
-      <div className="flex justify-between items-center">
-        <span className="text-xs bg-gray-600 rounded px-2 py-1">{repo['primary_language'] or 'N/A'}</span>
-        <a href="{repo['html_url']}" className="text-blue-400 hover:text-blue-300 text-sm">View Project</a>
-      </div>
-    </div>
+    # Using markdown table format for better visual organization
+    return f"""
+### [{repo['name']}]({repo['html_url']})
+{repo['description'] or 'No description provided.'}
+
+![Language](https://img.shields.io/badge/{repo['primary_language'] or 'N/A'}-{repo['language'] or 'gray'}-blue?style=flat-square)
+![Stars](https://img.shields.io/github/stars/{repo['full_name']}?style=flat-square)
 """
 
 def update_readme(username: str, token: str):
