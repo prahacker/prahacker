@@ -42,7 +42,7 @@ def generate_project_card(repo: Dict) -> str:
     
     return f"""<div align="center">
 
-[![{repo['name']}](https://img.shields.io/badge/{repo['name']}-black?style=for-the-badge&logo=github)](https://github.com/{repo['full_name']}) [![Stars](https://img.shields.io/github/stars/{repo['full_name']}?style=for-the-badge&logo=github&color=gold)](https://github.com/{repo['full_name']}/stargazers) [![Language](https://img.shields.io/badge/{lang}-{color}?style=for-the-badge&logo={lang.lower()}&logoColor=white)](https://github.com/{repo['full_name']})
+[![{repo['name']}](https://img.shields.io/badge/{repo['name']}-black?style=for-the-badge&logo=github)](https://github.com/{repo['full_name']}) [![Language](https://img.shields.io/badge/{lang}-{color}?style=for-the-badge&logo={lang.lower()}&logoColor=white)](https://github.com/{repo['full_name']})
 
 </div>"""
 
@@ -73,6 +73,6 @@ def update_readme(username: str, token: str):
             file.write(updated_content)
 
 if __name__ == "__main__":
-    token = os.environ['TOKEN']
+    github_token = os.environ['GITHUB_TOKEN']
     github_username = "prahacker"  # Your GitHub username
-    update_readme(github_username, token)
+    update_readme(github_username, github_token)
