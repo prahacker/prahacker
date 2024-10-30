@@ -4,7 +4,43 @@ A passionate devops engineer and cyber security enthusiast
 
 ## 🚀 Latest Projects
 
-<!-- PROJECTS_PLACEHOLDER -->
+
+        <div className="bg-gray-700 rounded-lg p-4">
+          <h3 className="text-xl font-semibold mb-2">retirement-planner</h3>
+          <p className="text-sm mb-2">No description</p>
+          <div className="flex justify-between items-center">
+            <span className="text-xs bg-gray-600 rounded px-2 py-1">TypeScript</span>
+            <a href="https://github.com/prahacker/retirement-planner" className="text-blue-400 hover:text-blue-300 text-sm">View Project</a>
+          </div>
+        </div>
+    
+        <div className="bg-gray-700 rounded-lg p-4">
+          <h3 className="text-xl font-semibold mb-2">tracker-v2</h3>
+          <p className="text-sm mb-2">No description</p>
+          <div className="flex justify-between items-center">
+            <span className="text-xs bg-gray-600 rounded px-2 py-1">TypeScript</span>
+            <a href="https://github.com/prahacker/tracker-v2" className="text-blue-400 hover:text-blue-300 text-sm">View Project</a>
+          </div>
+        </div>
+    
+        <div className="bg-gray-700 rounded-lg p-4">
+          <h3 className="text-xl font-semibold mb-2">my-portfolio</h3>
+          <p className="text-sm mb-2">No description</p>
+          <div className="flex justify-between items-center">
+            <span className="text-xs bg-gray-600 rounded px-2 py-1">TypeScript</span>
+            <a href="https://github.com/prahacker/my-portfolio" className="text-blue-400 hover:text-blue-300 text-sm">View Project</a>
+          </div>
+        </div>
+    
+        <div className="bg-gray-700 rounded-lg p-4">
+          <h3 className="text-xl font-semibold mb-2">prahacker</h3>
+          <p className="text-sm mb-2">No description</p>
+          <div className="flex justify-between items-center">
+            <span className="text-xs bg-gray-600 rounded px-2 py-1">Python</span>
+            <a href="https://github.com/prahacker/prahacker" className="text-blue-400 hover:text-blue-300 text-sm">View Project</a>
+          </div>
+        </div>
+    
 
 ## 📊 GitHub Stats
 
