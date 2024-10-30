@@ -34,5 +34,5 @@ def update_readme(username, token):
 
 if __name__ == "__main__":
     github_token = os.environ['GITHUB_TOKEN']
-    github_username = "yourusername"  # Replace with your GitHub username
+    github_username = "prahacker"  # Replace with your GitHub username
     update_readme(github_username, github_token)
