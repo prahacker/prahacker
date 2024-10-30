@@ -5,44 +5,35 @@ A passionate devops engineer and cyber security enthusiast
 ## 🚀 Latest Projects
 
 
-        <div className="bg-gray-700 rounded-lg p-4">
-          <h3 className="text-xl font-semibold mb-2">retirement-planner</h3>
-          <p className="text-sm mb-2">No description</p>
-          <div className="flex justify-between items-center">
-            <span className="text-xs bg-gray-600 rounded px-2 py-1">TypeScript</span>
-            <a href="https://github.com/prahacker/retirement-planner" className="text-blue-400 hover:text-blue-300 text-sm">View Project</a>
-          </div>
-        </div>
-    
-        <div className="bg-gray-700 rounded-lg p-4">
-          <h3 className="text-xl font-semibold mb-2">tracker-v2</h3>
-          <p className="text-sm mb-2">No description</p>
-          <div className="flex justify-between items-center">
-            <span className="text-xs bg-gray-600 rounded px-2 py-1">TypeScript</span>
-            <a href="https://github.com/prahacker/tracker-v2" className="text-blue-400 hover:text-blue-300 text-sm">View Project</a>
-          </div>
-        </div>
-    
-        <div className="bg-gray-700 rounded-lg p-4">
-          <h3 className="text-xl font-semibold mb-2">my-portfolio</h3>
-          <p className="text-sm mb-2">No description</p>
-          <div className="flex justify-between items-center">
-            <span className="text-xs bg-gray-600 rounded px-2 py-1">TypeScript</span>
-            <a href="https://github.com/prahacker/my-portfolio" className="text-blue-400 hover:text-blue-300 text-sm">View Project</a>
-          </div>
-        </div>
-    
-        <div className="bg-gray-700 rounded-lg p-4">
-          <h3 className="text-xl font-semibold mb-2">prahacker</h3>
-          <p className="text-sm mb-2">No description</p>
-          <div className="flex justify-between items-center">
-            <span className="text-xs bg-gray-600 rounded px-2 py-1">Python</span>
-            <a href="https://github.com/prahacker/prahacker" className="text-blue-400 hover:text-blue-300 text-sm">View Project</a>
-          </div>
-        </div>
-    
+### [retirement-planner](https://github.com/prahacker/retirement-planner)
+No description provided.
 
-## 📊 GitHub Stats
+![Language](https://img.shields.io/badge/TypeScript-TypeScript-blue?style=flat-square)
+![Stars](https://img.shields.io/github/stars/prahacker/retirement-planner?style=flat-square)
+
+
+### [tracker-v2](https://github.com/prahacker/tracker-v2)
+No description provided.
+
+![Language](https://img.shields.io/badge/TypeScript-TypeScript-blue?style=flat-square)
+![Stars](https://img.shields.io/github/stars/prahacker/tracker-v2?style=flat-square)
+
+
+### [my-portfolio](https://github.com/prahacker/my-portfolio)
+No description provided.
+
+![Language](https://img.shields.io/badge/TypeScript-TypeScript-blue?style=flat-square)
+![Stars](https://img.shields.io/github/stars/prahacker/my-portfolio?style=flat-square)
+
+
+### [prahacker](https://github.com/prahacker/prahacker)
+No description provided.
+
+![Language](https://img.shields.io/badge/Python-Python-blue?style=flat-square)
+![Stars](https://img.shields.io/github/stars/prahacker/prahacker?style=flat-square)
+
+
+📊 GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=prahacker&show_icons=true&theme=radical)
 
