@@ -1,6 +1,7 @@
 import os
 import requests
 from typing import Dict, List, Optional
+from datetime import datetime
 
 def get_repo_languages(username: str, repo: str, token: str) -> Dict[str, int]:
     url = f"https://api.github.com/repos/{username}/{repo}/languages"
@@ -28,14 +29,22 @@ def get_latest_repos(username: str, token: str, count: int = 4) -> List[Dict]:
     return sorted_repos
 
 def generate_project_card(repo: Dict) -> str:
-    # Using markdown table format for better visual organization
-    return f"""
-### [{repo['name']}]({repo['html_url']})
-{repo['description'] or 'No description provided.'}
+    # Get the language color (default to blue for unknown languages)
+    lang_colors = {
+        "Python": "3776AB",
+        "TypeScript": "3178C6",
+        "JavaScript": "F7DF1E",
+        "HTML": "E34F26",
+        "CSS": "1572B6"
+    }
+    lang = repo['primary_language'] or "Unknown"
+    color = lang_colors.get(lang, "0366D6")
+    
+    return f"""<div align="center">
 
-![Language](https://img.shields.io/badge/{repo['primary_language'] or 'N/A'}-{repo['language'] or 'gray'}-blue?style=flat-square)
-![Stars](https://img.shields.io/github/stars/{repo['full_name']}?style=flat-square)
-"""
+[![{repo['name']}](https://img.shields.io/badge/{repo['name']}-black?style=for-the-badge&logo=github)](https://github.com/{repo['full_name']}) [![Stars](https://img.shields.io/github/stars/{repo['full_name']}?style=for-the-badge&logo=github&color=gold)](https://github.com/{repo['full_name']}/stargazers) [![Language](https://img.shields.io/badge/{lang}-{color}?style=for-the-badge&logo={lang.lower()}&logoColor=white)](https://github.com/{repo['full_name']})
+
+</div>"""
 
 def update_readme(username: str, token: str):
     with open('README.md', 'r', encoding='utf-8') as file:
@@ -64,6 +73,6 @@ def update_readme(username: str, token: str):
             file.write(updated_content)
 
 if __name__ == "__main__":
-    token = os.environ['TOKEN']
+    github_token = os.environ['GITHUB_TOKEN']
     github_username = "prahacker"  # Your GitHub username
-    update_readme(github_username, token)
+    update_readme(github_username, github_token)
