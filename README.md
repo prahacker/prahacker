@@ -25,9 +25,6 @@ A passionate devops engineer and cyber security enthusiast
 
 </div>
 
-📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=prahacker&show_icons=true&theme=radical)
 
 ## 🔗 Connect with me
 
