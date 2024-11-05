@@ -57,20 +57,30 @@ def update_readme(username: str, token: str):
     start_marker = "🚀 Latest Projects"
     end_marker = "📊 GitHub Stats"
     
-    # Split content and replace the projects section
-    parts = content.split(start_marker)
-    if len(parts) > 1:
-        rest = parts[1].split(end_marker)
-        updated_content = (
-            parts[0] + 
-            start_marker + '\n\n' + 
-            project_cards + '\n\n' + 
-            end_marker +
-            rest[1]
-        )
-        
-        with open('README.md', 'w', encoding='utf-8') as file:
-            file.write(updated_content)
+    if start_marker in content:
+        parts = content.split(start_marker)
+        if end_marker in parts[1]:  # Check if end_marker exists after start_marker
+            rest = parts[1].split(end_marker)
+            updated_content = (
+                parts[0] +
+                start_marker + '\n\n' +
+                project_cards + '\n\n' +
+                end_marker +
+                rest[1]
+            )
+        else:
+            # If end_marker is missing, add project cards at the end of the start_marker section
+            updated_content = (
+                parts[0] +
+                start_marker + '\n\n' +
+                project_cards + '\n\n'
+            )
+    else:
+        # If start_marker is missing, append projects at the end of the file
+        updated_content = content + '\n\n' + start_marker + '\n\n' + project_cards
+
+    with open('README.md', 'w', encoding='utf-8') as file:
+        file.write(updated_content)
 
 if __name__ == "__main__":
     token = os.environ['TOKEN']
